@@ -1,0 +1,150 @@
+body.ludo {
+   background: burlywood;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+body.home {
+   background-image: url('../img/musique3.jpg');
+   }
+#gallery {
+    width: 1000px;
+    position: relative;
+    z-index: 1;
+    margin: 100px auto;
+    border: 2px solid #003c72;
+  }
+  #navigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  #navigation li {
+    padding: 0;
+    margin: 30px;
+  }
+  #navigation li a img {
+    display: block;
+    border: none;
+  }
+  #navigation li a {
+    display: block;
+  }
+form {
+  background-color: gray;
+  width: 50%;
+  display: block;
+  box-sizing: border-box;
+}
+.new {
+    width: min-content;
+    text-align: justify;
+}
+@media screen and (max-width: 900px ){
+    .new{ 
+          width: 20%;
+    }
+}
+form .corps-formulaire{
+    margin: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+ }
+ form .hors-formulaire{
+        margin-bottom: 30px;
+        border-bottom: 20px;
+ }
+
+ .inline-block {
+    margin: 5px;
+    display: inline-block;
+    flex-wrap: wrap;
+ }
+
+form .corps-formulaire .groupe{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+    width: 50%;
+ }
+ form .corps-formulaire .gauche .groupe input{
+    padding: 20px 10px 10px 20px;
+    border: 2px solid blue;
+    outline-color: yellow;
+    border-radius: 5px;
+ }
+ul{
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 20px;
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px;
+    font-weight: 500;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background: white;
+    color: black;
+    }
+nav ul li {
+    display: inline-block;
+}
+body.p
+{
+color: black;
+}
+.titre h1{
+    color: white;
+    font-size: 70px;
+}
+.titre{
+position: absolute;
+top: 60%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+@media (max-width: 1000px ){
+    .titre{ 
+        width: 300%;
+        position: static;
+        justify-content: center;
+        text-align: justify;
+        transform: translate(0, 100px);
+        top: 50px;
+    }
+}
+th{
+    background-color:#1c87c9; 
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #666;
+}
+.logo {
+    display: flex;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    font: bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script', fantasy;
+    color: #ff0083;
+    text-shadow: #000 2px 2px 0.2rem;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin: 20px;
+    /*background-color: #45a1ff;*/
+    color: #fff;
+    text-shadow: #000 2px 2px 0.2rem;
+}
